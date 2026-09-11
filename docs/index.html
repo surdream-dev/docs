@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SurDream · Contract Addresses</title>
+    <meta name="description" content="Official protocol contracts and token addresses used by SurDream across its product modules." />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body data-page="index">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">S</span>
+          <span class="brand-name">SurDream Docs</span>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation">☰</button>
+        <nav class="site-nav" id="site-nav">
+          <a href="index.html" data-nav="index"><span class="nav-dot"></span>Overview</a>
+          <a href="contracts/base-tokens.html" data-nav="base-tokens"><span class="nav-dot"></span>Base Tokens</a>
+          <a href="contracts/staking.html" data-nav="staking"><span class="nav-dot"></span>Staking</a>
+          <a href="contracts/stablecoin.html" data-nav="stablecoin"><span class="nav-dot"></span>Stablecoin Yield</a>
+          <a href="contracts/lending.html" data-nav="lending"><span class="nav-dot"></span>Lending</a>
+          <a href="contracts/infrastructure.html" data-nav="infrastructure"><span class="nav-dot"></span>Infrastructure</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-wrap">
+      <section class="hero">
+        <p class="eyebrow">Protocol Transparency</p>
+        <h1>Contract Addresses and Protocol Transparency</h1>
+        <p class="lead">
+          SurDream does not deploy or custody any funds through its own contracts. This documentation groups the official protocol contracts and token addresses actually used by the product, for audit, security review, and external reference.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="contracts/base-tokens.html">Browse Addresses</a>
+          <a class="btn" href="mailto:alice@surdream.com">Contact Us</a>
+        </div>
+      </section>
+
+      <div class="notice">
+        <span class="notice-dot"></span>
+        <p>
+          SurDream has no proprietary contracts. User assets interact directly with the official protocols listed below. Addresses are taken from the current codebase's actual call paths and are provided for verification.
+        </p>
+      </div>
+
+      <section class="section">
+        <h2>About This Reference</h2>
+        <p class="section-desc">
+          All addresses come from official contracts actually called in the product code, not from protocol documentation or third-party lists. RWA is not included for now, and addresses that exist only in the registry but are not referenced by any call path are excluded.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Address Categories</h2>
+        <p class="section-desc"><span id="total-count">0 addresses</span> across the five modules below.</p>
+        <div class="card-grid" id="category-cards"></div>
+      </section>
+
+      <footer class="site-footer">
+        <span>SurDream · Contract Addresses</span>
+        <span>Contact: <a href="mailto:alice@surdream.com">alice@surdream.com</a></span>
+      </footer>
+    </main>
+
+    <script src="assets/contracts.js"></script>
+    <script src="assets/site.js"></script>
+  </body>
+</html>
